@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  /*or*/
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-template-rows: 500px 500px;
+  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+}
+
+.one {
+  background-color: #FF679E;
+}
+ .two {
+   background-color: #E8AADF;
+ }
+
+ .three {
+   background-color: #E86EFF;
+ }
+
+ .four {
+   background-color: #E88481;
+ }
+
+ .five {
+   background-color: #FF866E;
+ }
+
+ .six {
+   background-color: pink;
+ }
